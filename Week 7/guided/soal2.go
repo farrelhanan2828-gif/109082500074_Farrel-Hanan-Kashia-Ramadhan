@@ -15,13 +15,13 @@ func main() {
 		fmt.Println("Mahasiswa ke-", i+1)
 
 		fmt.Print("Nama: ")
-		fmt.Scanln(&mhs[i].Nama)
+		fmt.Scan(&mhs[i].Nama)
 
 		fmt.Print("NIM: ")
-		fmt.Scanln(&mhs[i].NIM)
+		fmt.Scan(&mhs[i].NIM)
 
 		fmt.Print("IPK: ")
-		fmt.Scanln(&mhs[i].IPK)
+		fmt.Scan(&mhs[i].IPK)
 	}
 
 	fmt.Println("\nData Mahasiswa:")
